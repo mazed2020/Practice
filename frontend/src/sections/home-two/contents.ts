@@ -20,6 +20,9 @@ export const pricingContent: PricingItem[] = [
         text3: "Kitchen & bathroom cleaning",
         text4: "Bedroom & living area cleaning",
         text5: "Carpet steam cleaning",
+        text6:"Mattress and sofa cleaning",
+        text7:"Carpet/Rug cleaning",
+        text8:"Car seat steam cleaning",
     },
     {
         image: pricContent1,
@@ -34,6 +37,9 @@ export const pricingContent: PricingItem[] = [
         text3: "Workspace sanitation",
         text4: "Common area cleaning",
         text5: "Restroom and kitchen cleaning",
+        text6:"",
+        text7:"",
+        text8:"",
     },
     {
         image: pricContent1,
@@ -47,7 +53,10 @@ export const pricingContent: PricingItem[] = [
         text2: "One-time deep cleaning",
         text3: "Event cleaning",
         text4: "Customized cleaning plans",
-        text5: "Customized cleaning plans",
+        text5: "",
+        text6:"",
+        text7:"",
+        text8:"",
     },
 ];
 
@@ -65,6 +74,9 @@ export const pricingContentTow: PricingItem[] = [
         text3: "Satisfaction Guaranteed Results",
         text4: "Quick Response Team",
         text5: "Trusted Local Professionals",
+        text6:"",
+        text7:"",
+        text8:"",
     },
     {
         image: pricContent1,
@@ -79,6 +91,9 @@ export const pricingContentTow: PricingItem[] = [
         text3: "Experienced Cleaning Experts",
         text4: "24/7 Customer Support",
         text5: "Flexible Scheduling",
+        text6:"",
+        text7:"",
+        text8:"",
     },
     {
         image: pricContent1,
@@ -93,6 +108,9 @@ export const pricingContentTow: PricingItem[] = [
         text3: "Experienced Cleaning Experts",
         text4: "24/7 Customer Support",
         text5: "Flexible Scheduling",
+        text6:"",
+        text7:"",
+        text8:"",
     },
 ];
 

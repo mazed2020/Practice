@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import pricimg1 from "../../../public/assets/images/shapes/pricing-two-shape-2.png";
 import pricimg2 from "../../../public/assets/images/shapes/pricing-two-shape-3.png";
-import pricimg3 from "../../../public/assets/images/shapes/pricing-two-discount--shape-1.png"; 
+ 
 import Image from 'next/image';
 import { pricingContent, pricingContentTow } from '../home-two/contents';
 import PricingCard from '@/components/elements/PricingCard';
@@ -41,7 +41,7 @@ const PricingPlanTow: React.FC = () => {
                                 style={{ display: !isPricing ? "block" : "none" }}
                             >
                                 <div className="pricing-two__tab-content-box">
-                                    <div className="row " >
+                                    <div className="row">
                                         {pricingContent.map((item, index) =>
                                             <PricingCard key={index} item={item}/>
                                         )}

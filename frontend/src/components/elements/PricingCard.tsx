@@ -9,6 +9,7 @@ interface PricingCartProps {
 }
 
 const PricingCard: React.FC<PricingCartProps> = ({ item }) => {
+    console.log(item)
     return (
         <div className="col-xl-4 col-lg-6 pricing-margin">
             <div
@@ -31,12 +32,14 @@ const PricingCard: React.FC<PricingCartProps> = ({ item }) => {
                 
                 <div className="pricing-two__points-box" style={{marginTop:"2rem"}}>
                     <ul className="list-unstyled pricing-two__points">
-                        {[item.text1, item.text2, item.text3, item.text4, item.text5].map(
+                        {[item.text1, item.text2, item.text3, item.text4, item.text5,item.text6,item.text7,item.text8].map(
                             (text, idx) => (
                                 <li key={idx}>
-                                    <div className="icon">
+                                    {
+                                        text?<div className="icon">
                                         <span className="icon-check-1"></span>
-                                    </div>
+                                    </div>: <br />
+                                    }
                                     <div className="text">
                                         <p>{text}</p>
                                     </div>
